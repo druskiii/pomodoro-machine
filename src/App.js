@@ -1,5 +1,5 @@
 import React from 'react';
-import { ReactDOM } from 'react';
+// import { ReactDOM } from 'react';
 // import { useState } from 'react'
 import './App.css';
 
@@ -84,7 +84,8 @@ const App = () => {
    
    const clock = () => {
      if(play){
-       timeout()
+       // eslint-disable-next-line no-unused-expressions
+       timeout
        resetTimer()
      }
    }
@@ -134,5 +135,5 @@ const App = () => {
   );
 }
 
-ReactDOM.render(<App />, document.getElementById("app"));
+// ReactDOM.render(<App />, document.getElementById("app"));
 export default App;
