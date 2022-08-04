@@ -1,38 +1,94 @@
-.App {
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+#title, #timer-label {
+  font: 800 40px Arial;
+  -webkit-text-stroke: 3px;
+  color: #70a642;
+  text-shadow: 4px 4px black;
   text-align: center;
+  font-size: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+ background-image: linear-gradient(#FFDAB9, #8B008B);
+ background-size: 200% 200%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.wrapper {
+ border: 2px solid;
+ border-radius: 25px;
+ width: 485px;
+ margin: 50px auto auto auto;
+ background-color: #FFEFD5;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.row {
+  display: flex; 
+}
+
+.column {
+  flex: 50%;
+  text-align: center;
+  padding-bottom: 25px;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.timer-wrapper {
+ border: 2px solid;
+ border-radius: 25px;
+ width: 485px;
+ margin: 10px auto auto auto;
+ background-color: #FFEFD5;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#break-label, #session-label, #time-left {
+  color: #a2116d;
+  font: 800 30px Arial;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 3px;
+}
+
+#time-left {
+  text-align: center;
+  font: 800 45px Arial;
+  text-decoration: underline;
+  text-decoration-style: dashed;
+  text-decoration-thickness: 5px;
+}
+
+button {
+  background-color: #fbeee0;
+  border: 2px solid #422800;
+  border-radius: 30px;
+  box-shadow: #422800 4px 4px 0 0;
+  color: #422800;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 20px;
+  padding: 0 18px;
+  margin-bottom: 20px;
+  line-height: 35px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+button:hover {
+  background-color: #7FFF00;
+}
+
+button:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+#session-length, #break-length {
+  color: 	#ADFF2F;
+  font: 800 30px Arial;
+  margin: 1px auto 10px auto;
+  -webkit-text-stroke: 1px black; 
 }
