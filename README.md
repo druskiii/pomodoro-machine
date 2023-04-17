@@ -1,70 +1,27 @@
-# Getting Started with Create React App
+Hi Friends 👋🏾, 
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to my Pomodoro TimeMachine App! I completed this project as part of my FreeCodeCamp curriculum, and I used mainly used React, HTML, CSS, a few web packages, and of course, JS to complete this project.
 
-## Available Scripts
+As many of us know, it can sometimes be hard to know how much time we spend on a project. It can be equally as hard to stay on track in a world saturated with distractions. This app will help me and others to stay focused and see our projects to completion - while also getting some much-needed rest in between sessions by practicing some active self-care! 
 
-In the project directory, you can run:
+I learned just how important it is to make your projects easily accessible to other developers, and to yourself... when you're looking at your project 6 months later. 😉 While many other Pomodoro Apps just focus on set time limits, and three functional buttons max, my app lets the user decide how much time they want for their work time, their break, and bonus - it's all set in a relaxing and motivating background that I created with extensive css styling. 
 
-### `npm start`
+    Features: Increase Break Time (up to 60 minutes)
+              Decrease Break Time (up to 60 minutes)
+              Increase Session Time (up to 60 minutes)
+              Decrease Session Time (up to 60 minutes)
+              Start/Stop Session Timer
+              Reset Timer
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Even though I made this app 6-months ago, I still use it daily in my coding sessions! I personally use the 52-minute Session/17-minute Break setup for my coding pleasure. I encourage anyone who wants to use a highly personalized focus app to try this one!
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+Thanks for reading x Happy coding ⌨️,
+Dru
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Want to Learn more about how to use the app? Visit the official React App documantion! 
+(https://github.com/facebook/create-react-app/blob/main/packages/cra-template/template/README.md)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

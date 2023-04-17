@@ -129,8 +129,9 @@ const App = () => {
        <audio 
          id="beep"
          preload="auto"
- src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
+         src="https://raw.githubusercontent.com/freeCodeCamp/cdn/master/build/testable-projects-fcc/audio/BeepSound.wav"
        />
+       <div class="footer">With 💚 by <a href="https://codepen.io/collection/zxRPob"><em>Dru Baker</em></a></div>
       </React.Fragment>
   );
 }
