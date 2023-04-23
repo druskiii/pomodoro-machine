@@ -1,6 +1,6 @@
 Hi Friends 👋🏾, 
 
-Welcome to my Pomodoro TimeMachine App! I completed this project as part of my FreeCodeCamp curriculum, and I used mainly used React, HTML, CSS, a few web packages, and of course, JS to complete this project.
+Welcome to my Pomodoro TimeMachine App! I completed this project as part of my FreeCodeCamp curriculum, and I mainly used React, HTML, CSS, a few web packages, and JS to complete this project.
 
 As many of us know, it can sometimes be hard to know how much time we spend on a project. It can be equally as hard to stay on track in a world saturated with distractions. This app will help me and others to stay focused and see our projects to completion - while also getting some much-needed rest in between sessions by practicing some active self-care! 
 
